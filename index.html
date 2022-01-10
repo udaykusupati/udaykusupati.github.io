@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 
@@ -78,6 +79,15 @@
   <title>Uday Kusupati</title>
   <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167314770-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-167314770-1');
+  </script>
 </head>
 
 <body>
@@ -90,15 +100,16 @@
               <p align="center">
                 <name>Uday Kusupati</name>
               </p>
-              <p>I am a first year computer science Masters student at the <a href="https://www.cs.utexas.edu/">University of Texas at Austin</a>, where I am working with Prof. <a href="https://www.cs.utexas.edu/~huangqx/">Qixing Huang</a>.
+              <p>I am a second year computer science Ph.D. student at the Swiss Federal Institute of Technology (EPFL). I am advised by <a href="https://gcm.epfl.ch">Prof. Mark Pauly</a>
               </p>
-              <p>
-                I did my Bachelor's in CS with a minor in mathematics at the <a href="https://www.cse.iitb.ac.in/">IIT Bombay</a> where I worked with Prof. <a href="https://www.cse.iitb.ac.in/~sidch/">Siddhartha Chaudhuri</a> on scene graphs and Prof. <a href="https://www.cse.iitb.ac.in/~ajain/">Arjun Jain</a> on Human Pose Estimation.
+              <p>Previously, I was a Masters student in CS at <a href="https://www.cs.utexas.edu/">The University of Texas at Austin</a> where I was fortunate to work with Prof. <a href="https://www.cs.utexas.edu/~huangqx/">Qixing Huang</a> and Prof. <a href="http://ai.ucsd.edu/~haosu/">Hao Su</a>.
+                I did my Bachelor's in CS with a minor in mathematics at <a href="https://www.cse.iitb.ac.in/">IIT Bombay</a> where I worked with Prof. <a href="https://www.cse.iitb.ac.in/~sidch/">Siddhartha Chaudhuri</a> on scene graph parsing and reconstruction and Prof. <a href="https://www.cse.iitb.ac.in/~ajain/">Arjun Jain</a> on Human Pose Estimation.
               </p>
               <p align=center>
-                <a href="mailto:kusupatiuday@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="data/Resume.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://scholar.google.co.in/citations?user=LX2goiYAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="mailto:uday.kusupati@epfl.ch">Email</a> &nbsp/&nbsp
+                <a href="data/CV_web.pdf">CV</a> &nbsp/&nbsp
+                <a href="data/Resume2022.pdf">Resume</a> &nbsp/&nbsp
+		<a href="https://scholar.google.co.in/citations?user=LX2goiYAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
                 <a href="http://www.linkedin.com/in/udaykusupati/"> LinkedIn </a>&nbsp/&nbsp
                 <a href="http://www.github.com/udaykusupati/"> GitHub </a>
               </p>
@@ -113,13 +124,48 @@
             <td width="100%" valign="middle">
               <heading>Research</heading>
               <p>
-                I'm interested in computer vision pertinent to 3D objects and leveraging machine learning for efficient representations of the same. I am currently working on analysing possible topology aware methods for 3D reconstruction from single image. I am also looking forward to explore if language supervision aids human pose estimation this spring.
+                I'm interested in computer vision pertinent to 3D objects and leveraging machine learning for efficient representations of the same. I am interested in leveraging learning techniques that employ an explicit understanding of the underlying object-object and object-human relations, topology, differential geometry and the physics governing the underlying scene configurations. 
               </p>
             </td>
           </tr>
         </table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+        
+        <tr onmouseout="btp_stop()" onmouseover="btp_start()">
+          <td width="25%">
+            <div class="one">
+              <div class="two" id='mvdn_image'><img src='images/Normal_Depth_Estimation.jpg'></div>
+              <img src='images/Normal_Depth_Estimation.jpg'>
+            </div>
+            <script type="text/javascript">
+              function mvdn_start() {
+                document.getElementById('mvdn_image').style.opacity = "1";
+              }
+
+              function mvdn_stop() {
+                document.getElementById('mvdn_image').style.opacity = "0";
+              }
+              mvdn_stop()
+            </script>
+          </td>
+          <td valign="top" width="75%">
+            <a href="NAS/index.html">
+              <papertitle>Normal Assisted Stereo Depth Estimation</papertitle>
+            </a>
+            <br>
+              <strong>Uday Kusupati</strong>,
+              Shuo Cheng,
+              Rui Chen, and
+              <a href="http://ai.ucsd.edu/~haosu/">Hao Su</a>
+              <br>
+              <em>CVPR</em>, 2020
+              <br>
+            <p></p>
+            <p> We study how to enforce the consistency between surface normal and depth at training time to improve the performance. We couple the learning of a multiview normal estimation module and a multi-view depth estimation module which can improve both the prediction of normal and depth.</p>
+          </td>
+        </tr>
 
         <tr onmouseout="pose_stop()" onmouseover="pose_start()">
           <td width="25%">
@@ -147,7 +193,7 @@
               Anurag Mundhada,
               <strong>Uday Kusupati</strong>,
               Safeer Afaque,
-              <a href="http://www.cs.umd.edu/~bhokaal/">Abhishek Sharma</a>,
+              <a href="http://www.cs.umd.edu/~bhokaal/">Abhishek Sharma</a>, and 
               <a href="https://www.cse.iitb.ac.in/~ajain">Arjun Jain</a>
               <br>
               <em>ECCV</em>, 2018
@@ -186,7 +232,7 @@
             <!-- <br>
             <a href="https://www.cse.iitb.ac.in/~udaykusupati/Uday_BTP_Report">Report</a> -->
             <p></p>
-            <p> We use probabilistic grammars with the conditional relationships modeled by recursive neural networks to parse and thereafter reconstruct the complete hierarchy along with the node features.</p>
+            <!-- <p> We use probabilistic grammars with the conditional relationships modeled by recursive neural networks to parse and thereafter reconstruct the complete hierarchy along with the node features.</p> -->
           </td>
         </tr>
 
@@ -216,7 +262,7 @@
             <!-- <br>
             <a href="https://www.cse.iitb.ac.in/~udaykusupati/Uday_BTP_Report">Report</a> -->
             <p></p>
-            <p> We offer a novel approach to calculate the bio-mechanical joint torques for a particular posture and use it to optimally raise a height field to minimize the joint torque values</p>
+            <!-- <p> We offer a novel approach to calculate the bio-mechanical joint torques for a particular posture and use it to optimally raise a height field to minimize the joint torque values</p> -->
           </td>
         </tr>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
@@ -263,11 +309,29 @@
 		    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td>
-              <heading>Course Projects</heading>
+              <heading>Graduate Course Projects</heading>
             </td>
           </tr>
         </table>
         <table width="100%" align="center" border="0" cellpadding="20">
+           <tr>
+            <td width="25%"><img src="images/cloth.jpg" alt="prl" width="160" height="160"></td>
+            <td width="75%" valign="top">
+              <p>
+                <a href="data/Robust_Cloth_Collision.pdf">
+                  <papertitle>Robust Cloth Simulation</papertitle>
+                </a>
+                <br>
+                <!-- <strong>Uday Kusupati</strong>, Abhinav Deep Singh
+                <br> -->
+                Physical Simulation, Spring 2019, UT Austin
+                <br>
+                Advisor: Prof. <a href="https://www.cs.utexas.edu/users/evouga/">Etienne Vouga</a>
+                <p>
+                  <br> We implement cloth simulation, handling collisions between the cloth and rigid bodies as well as itself along withfriction along the contact surfaces by combining Bridson et al.'s method with a position based dynamics model of cloth. </p>
+              </p>
+            </td>
+          </tr>
           <tr>
             <td width="25%"><img src="images/toy.png" alt="prl" width="160" height="160"></td>
             <td width="75%" valign="top">
@@ -276,8 +340,8 @@
                   <papertitle>Topology aware Mesh Reconstruction: Solving for 2D Data</papertitle>
                 </a>
                 <br>
-                <strong>Uday Kusupati</strong>, Abhinav Deep Singh
-                <br>
+                <!-- <strong>Uday Kusupati</strong>, Abhinav Deep Singh
+                <br> -->
                 Numerical Optimization for Graphics & AI, Fall 2018, UT Austin
                 <br>
                 Advisor: Prof. <a href="https://www.cs.utexas.edu/~huangqx/">Qixing Huang</a>
@@ -295,8 +359,8 @@
                   <papertitle>Role of structured information for answering questions on data visualizations</papertitle>
                 </a>
                 <br>
-                <strong>Uday Kusupati</strong>, Ankur Garg, Venkata Ravi Teja Ailavarapu
-                <br>
+                <!-- <strong>Uday Kusupati</strong>, Ankur Garg, Venkata Ravi Teja Ailavarapu
+                <br> -->
                 Deep Learning Seminar, Fall 2018, UT Austin
                 <br>
                 Advisor: Prof. <a href="https://www.philkr.net">Philipp Kr&auml;henb&uuml;hl</a>
@@ -314,8 +378,8 @@
                   <papertitle>Natural Language to Code using Transformers</papertitle>
                 </a>
                 <br>
-                <strong>Uday Kusupati</strong>, Venkata Ravi Teja Ailavarapu
-                <br>
+                <!-- <strong>Uday Kusupati</strong>, Venkata Ravi Teja Ailavarapu
+                <br> -->
                 Natural Language Processing, Fall 2018, UT Austin
                 <br>
                 Advisor: Prof. <a href="http://www.cs.utexas.edu/~gdurrett/">Greg Durrett</a>
@@ -338,13 +402,19 @@
             <td width="25%"><img src="images/ta.png" alt="ta" width="160" height="160"></td>
             <td width="75%" valign="center">
               <p>
-                  <papertitle>CS213/293 - Data Structures and Algorithms - Spring 2018 - IIT Bombay</papertitle>
+                  <papertitle>CS 388 - Natural Language Processing - Fall 2019 - UT Austin</papertitle>
                 <br>
                 <br>
-                  <papertitle>CS101 - Computer Programming & Utilization - Fall 2017 - IIT Bombay</papertitle>
+                  <papertitle>CS 378H - Computer Graphics Honors - Spring 2019 - UT Austin</papertitle>
                 <br>
                 <br>
-                  <papertitle>CS101 - Computer Programming & Utilization - Spring 2018 - IIT Bombay</papertitle>
+                  <papertitle>CS 213/293 - Data Structures and Algorithms - Spring 2018 - IIT Bombay</papertitle>
+                <br>
+                <br>
+                  <papertitle>CS 101 - Computer Programming & Utilization - Fall 2017 - IIT Bombay</papertitle>
+                <br>
+                <br>
+                  <papertitle>CS 101 - Computer Programming & Utilization - Spring 2018 - IIT Bombay</papertitle>
                 <br>
               </p>
             </td>
@@ -362,19 +432,12 @@
             </td>
           </tr>
         </table>
-        <script type="text/javascript">
-          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        </script>
-        <script type="text/javascript">
-          try {
-            var pageTracker = _gat._getTracker("UA-7580334-1");
-            pageTracker._trackPageview();
-          } catch (err) {}
-        </script>
+        
+
         </td>
     </tr>
   </table>
 </body>
 
 </html>
+
