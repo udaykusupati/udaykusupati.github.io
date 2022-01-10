@@ -1,0 +1,69 @@
+
+<!--DOCTYPE-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NAS</title>
+    <link rel="SHORTCUT ICON" href="favicon.ico"/>
+    <link href='css/paperstyle.css' rel='stylesheet' type='text/css'>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167314770-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-167314770-1');
+    </script>
+</head>
+
+<body>
+
+<div class="pageTitle">
+    Normal Assisted Stereo Depth Estimation
+    <br>
+    <br>
+    <span class = "Authors">
+        <p style="margin-bottom: 0px; padding-bottom: 0px">
+            <a href="https://www.cs.utexas.edu/~uday" target="_blank">Uday Kusupati</a><sup>1</sup> &nbsp; &nbsp;
+            <a href="https://sites.google.com/view/shuocheng" target="_blank">Shuo Cheng</a><sup>2</sup> &nbsp; &nbsp;
+            <a href="https://cray695.wixsite.com/mysite" target="_blank">Rui Chen</a><sup>3</sup> &nbsp; &nbsp;
+            <a href="http://cseweb.ucsd.edu/~haosu/" target="_blank">Hao Su</a><sup>2</sup> &nbsp; &nbsp;<br>
+            
+        </p>
+        <p>
+            <sup>1</sup><a href = "https://www.cs.utexas.edu/" target="_blank"> The University of Texas at Austin </a> &nbsp; &nbsp;
+            <sup>2</sup><a href = "https://cse.ucsd.edu/" target="_blank"> University of California San Diego </a> &nbsp; 
+            <sup>3</sup><a href = "https://www.tsinghua.edu.cn/en/index.htm" target="_blank"> Tsinghua University </a>
+        </p>
+        <a href="http://cvpr2020.thecvf.com/" target="_blank"><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020</i></a>
+  </span>
+</div>
+<br>
+<div class = "material">
+    <a href="https://arxiv.org/pdf/1911.10444.pdf" target="_blank">[arXiv]</a>
+    <a href="https://github.com/udaykusupati/Normal-Assisted-Stereo" target="_blank">[Code]</a>
+    <a href="paper.bib" target="_blank">[BibTex]</a>
+    <!--<a href="#" target="_blank">[Material]</a>-->
+    <a href="https://youtu.be/F1qrukMlXnY" target="_blank">[Video]</a>
+    <br>
+</div>
+
+<img class = "bannerImage" src="images/teaser.gif", width="512"><br>
+
+
+
+<div class = "abstractTitle">
+    Abstract
+</div>
+
+<p class = "abstractText">
+    Accurate stereo depth estimation plays a critical role in various 3D tasks in both indoor and outdoor environments. Recently, learning-based multi-view stereo methods have demonstrated competitive performance with limited number of views. However, in challenging scenarios, especially when building cross-view correspondences is hard, these methods still cannot produce satisfying results. In this paper, we study how to enforce the consistency between surface normal and depth at training time to improve the performance. We couple the learning of a multi-view normal estimation module and a multi-view depth estimation module. In addition, we propose a novel consistency loss to train an independent consistency module that refines the depths from depth/normal pairs. We find that the joint learning can improve both the prediction of normal and depth, and the accuracy and smoothness can be further improved by enforcing the consistency. Experiments on MVS, SUN3D, RGBD and Scenes11 demonstrate the effectiveness of our method and state-of-the-art performance.
+</p>
+
+
+
+</p></td></tr></table>
+</body>
+</html>
+
