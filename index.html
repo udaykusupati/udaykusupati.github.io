@@ -107,11 +107,12 @@
               </p>
               <p align=center>
                 <a href="mailto:uday.kusupati@epfl.ch">Email</a> &nbsp/&nbsp
-                <a href="data/CV_web.pdf">CV</a> &nbsp/&nbsp
+                <!-- <a href="data/CV_web.pdf">CV</a> &nbsp/&nbsp -->
                 <a href="data/Resume2022.pdf">Resume</a> &nbsp/&nbsp
-		<a href="https://scholar.google.co.in/citations?user=LX2goiYAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-                <a href="http://www.linkedin.com/in/udaykusupati/"> LinkedIn </a>&nbsp/&nbsp
-                <a href="http://www.github.com/udaykusupati/"> GitHub </a>
+		<a href="https://scholar.google.co.in/citations?user=LX2goiYAAAAJ&hl=en">Google Scholar</a> 
+    <!-- &nbsp/&nbsp -->
+                <!-- <a href="http://www.linkedin.com/in/udaykusupati/"> LinkedIn </a>&nbsp/&nbsp -->
+                <!-- <a href="http://www.github.com/udaykusupati/"> GitHub </a> -->
               </p>
             </td>
             <td width="33%">
@@ -123,17 +124,54 @@
           <tr>
             <td width="100%" valign="middle">
               <heading>Research</heading>
-              <p>
+              <!-- <p>
                 I'm interested in computer vision pertinent to 3D objects and leveraging machine learning for efficient representations of the same. I am interested in leveraging learning techniques that employ an explicit understanding of the underlying object-object and object-human relations, topology, differential geometry and the physics governing the underlying scene configurations. 
-              </p>
+              </p> -->
             </td>
           </tr>
         </table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-        
-        <tr onmouseout="btp_stop()" onmouseover="btp_start()">
+          <tr onmouseout="umbr_stop()" onmouseover="umbr_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='umbr_image'><img src='images/umbr_closed.png' width="200"></div>
+                <img src='images/umbr_open.png' width="200">
+              </div>
+              <script type="text/javascript">
+                function umbr_start() {
+                  document.getElementById('umbr_image').style.opacity = "1";
+                }
+  
+                function umbr_stop() {
+                  document.getElementById('umbr_image').style.opacity = "0";
+                }
+                mvdn_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://gcm.epfl.ch/publications/2022/UmbrellaMeshes/index.php">
+                <papertitle>Umbrella Meshes: Elastic Mechanisms for Freeform Shape Deployment</papertitle>
+              </a>
+              <br>
+                <strong>Uday Kusupati*</strong>,
+                <a href="https://samararen.github.io/">Yingying Ren*</a>,
+                <a href="https://julianpanetta.com/">Julian Panetta</a>,
+                Florin Isvoranu,
+                Davide Pellis,
+                Tian Chen, and
+                <a href="https://gcm.epfl.ch/">Mark Pauly</a>,
+                <br>
+                <em>SIGGRAPH</em>, 2022
+                <br>
+              <p></p>
+              <p> We present a computational inverse design framework for a new class of volumetric deployable structures that have compact rest states and deploy into bending-active 3D target surfaces. Umbrella meshes consist of elastic beams, rigid plates, and hinge joints that can be directly printed or assembled in a zero-energy fabrication state. During deployment, as the elastic beams of varying heights rotate from vertical to horizontal configurations, the entire structure transforms from a compact block into a target curved surface. Umbrella Meshes encode both intrinsic and extrinsic curvature of the target surface and in principle are free from the area expansion ratio bounds of past auxetic material systems. We build a reduced physics-based simulation framework to accurately and efficiently model the complex interaction between the elastically deforming components. To determine the mesh topology and optimal shape parameters for approximating a given target surface, we propose an inverse design optimization algorithm initialized with conformal flattening. Our algorithm minimizes the structure's strain energy in its deployed state and optimizes actuation forces so that the final deployed structure is in stable equilibrium close to the desired surface with few or no external constraints. We validate our approach by fabricating a series of physical models at various scales using different manufacturing techniques. </p>
+              *joint first author
+            </td>
+          </tr>
+
+        <tr onmouseout="mvdn_stop()" onmouseover="mvdn_start()">
           <td width="25%">
             <div class="one">
               <div class="two" id='mvdn_image'><img src='images/Normal_Depth_Estimation.jpg'></div>
@@ -162,8 +200,8 @@
               <br>
               <em>CVPR</em>, 2020
               <br>
-            <p></p>
-            <p> We study how to enforce the consistency between surface normal and depth at training time to improve the performance. We couple the learning of a multiview normal estimation module and a multi-view depth estimation module which can improve both the prediction of normal and depth.</p>
+            <!-- <p> We study how to enforce the consistency between surface normal and depth at training time to improve the performance. We couple the learning of a multiview normal estimation module and a multi-view depth estimation module which can improve both the prediction of normal and depth.</p> -->
+            <p>Accurate stereo depth estimation plays a critical role in various 3D tasks in both indoor and outdoor environments. Recently, learning-based multi-view stereo methods have demonstrated competitive performance with limited number of views. However, in challenging scenarios, especially when building cross-view correspondences is hard, these methods still cannot produce satisfying results. In this paper, we study how to enforce the consistency between surface normal and depth at training time to improve the performance. We couple the learning of a multi-view normal estimation module and a multi-view depth estimation module. In addition, we propose a novel consistency loss to train an independent consistency module that refines the depths from depth/normal pairs. We find that the joint learning can improve both the prediction of normal and depth, and the accuracy and smoothness can be further improved by enforcing the consistency. Experiments on MVS, SUN3D, RGBD and Scenes11 demonstrate the effectiveness of our method and state-of-the-art performance.</p>
           </td>
         </tr>
 
@@ -199,16 +237,16 @@
               <em>ECCV</em>, 2018
               <br>
               
-            <p></p>
-            <p> We propose two anatomically inspired loss functions and use them with a weakly-supervised learning framework to jointly learn from large-scale in-the-wild 2D and indoor/synthetic 3D data. We also present a simple temporal network that exploits temporal and structural cues present in predicted pose sequences to temporally harmonize the pose estimations.</p>
+            <p>3D human pose estimation from a single image is a challenging problem, especially for in-the-wild settings due to the lack of 3D annotated data. We propose two anatomically inspired loss functions and use them with a weakly-supervised learning framework to jointly learn from large-scale in-the-wild 2D and indoor/synthetic 3D data. We also present a simple temporal network that exploits temporal and structural cues present in predicted pose sequences to temporally harmonize the pose estimations. We carefully analyze the proposed contributions through loss surface visualizations and sensitivity analysis to facilitate deeper understanding of their working mechanism. Jointly, the two networks capture the anatomical constraints in static and kinetic states of the human body. Our complete pipeline improves the state-of-the-art by 11.8% and 12% on Human3.6M and MPI-INF-3DHP, respectively, and runs at 30 FPS on a commodity graphics card.</p>
+            <!-- <p> We propose two anatomically inspired loss functions and use them with a weakly-supervised learning framework to jointly learn from large-scale in-the-wild 2D and indoor/synthetic 3D data. We also present a simple temporal network that exploits temporal and structural cues present in predicted pose sequences to temporally harmonize the pose estimations.</p> -->
           </td>
         </tr>
 
-        <tr onmouseout="btp_stop()" onmouseover="btp_start()">
+        <!-- <tr onmouseout="btp_stop()" onmouseover="btp_start()">
           <td width="25%">
             <div class="one">
-              <div class="two" id='btp_image'><img src='images/btp.PNG'></div>
-              <img src='images/btp.PNG'>
+              <div class="two" id='btp_image'><img src='images/btp.png'></div>
+              <img src='images/btp.png'>
             </div>
             <script type="text/javascript">
               function btp_start() {
@@ -229,10 +267,10 @@
             <em>Undergraduate Thesis, IIT Bombay</em>
             <br>
             Advisor: Prof. <a href="https://www.cse.iitb.ac.in/~sidch/">Siddhartha Chaudhuri</a>
-            <!-- <br>
-            <a href="https://www.cse.iitb.ac.in/~udaykusupati/Uday_BTP_Report">Report</a> -->
+            <br>
+            <a href="https://www.cse.iitb.ac.in/~udaykusupati/Uday_BTP_Report">Report</a>
             <p></p>
-            <!-- <p> We use probabilistic grammars with the conditional relationships modeled by recursive neural networks to parse and thereafter reconstruct the complete hierarchy along with the node features.</p> -->
+            <p> We use probabilistic grammars with the conditional relationships modeled by recursive neural networks to parse and thereafter reconstruct the complete hierarchy along with the node features.</p>
           </td>
         </tr>
 
@@ -254,15 +292,15 @@
             </script>
           </td>
           <td valign="top" width="75%">
-<!--             <a href='data/fmorph.pdf'> -->
+            <a href='data/fmorph.pdf'>
               <papertitle>Affordance based Furniture Generation</papertitle>
-<!--             </a> -->
+            </a>
             <br>
             Advisor: Prof. <a href="https://www.cse.iitb.ac.in/~sidch/">Siddhartha Chaudhuri</a>
-            <!-- <br>
-            <a href="https://www.cse.iitb.ac.in/~udaykusupati/Uday_BTP_Report">Report</a> -->
+            <br>
+            <a href="https://www.cse.iitb.ac.in/~udaykusupati/Uday_BTP_Report">Report</a>
             <p></p>
-            <!-- <p> We offer a novel approach to calculate the bio-mechanical joint torques for a particular posture and use it to optimally raise a height field to minimize the joint torque values</p> -->
+            <p> We offer a novel approach to calculate the bio-mechanical joint torques for a particular posture and use it to optimally raise a height field to minimize the joint torque values</p>
           </td>
         </tr>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
@@ -322,8 +360,8 @@
                   <papertitle>Robust Cloth Simulation</papertitle>
                 </a>
                 <br>
-                <!-- <strong>Uday Kusupati</strong>, Abhinav Deep Singh
-                <br> -->
+                <strong>Uday Kusupati</strong>, Abhinav Deep Singh
+                <br>
                 Physical Simulation, Spring 2019, UT Austin
                 <br>
                 Advisor: Prof. <a href="https://www.cs.utexas.edu/users/evouga/">Etienne Vouga</a>
@@ -340,8 +378,8 @@
                   <papertitle>Topology aware Mesh Reconstruction: Solving for 2D Data</papertitle>
                 </a>
                 <br>
-                <!-- <strong>Uday Kusupati</strong>, Abhinav Deep Singh
-                <br> -->
+                <strong>Uday Kusupati</strong>, Abhinav Deep Singh
+                <br>
                 Numerical Optimization for Graphics & AI, Fall 2018, UT Austin
                 <br>
                 Advisor: Prof. <a href="https://www.cs.utexas.edu/~huangqx/">Qixing Huang</a>
@@ -352,15 +390,15 @@
             </td>
           </tr>
           <tr>
-            <td width="25%"><img src="images/plotQA.JPG" alt="prl" width="160" height="160"></td>
+            <td width="25%"><img src="images/plotQA.jpg" alt="prl" width="160" height="160"></td>
             <td width="75%" valign="top">
               <p>
                 <a href="data/PlotQA.pdf">
                   <papertitle>Role of structured information for answering questions on data visualizations</papertitle>
                 </a>
                 <br>
-                <!-- <strong>Uday Kusupati</strong>, Ankur Garg, Venkata Ravi Teja Ailavarapu
-                <br> -->
+                <strong>Uday Kusupati</strong>, Ankur Garg, Venkata Ravi Teja Ailavarapu
+                <br>
                 Deep Learning Seminar, Fall 2018, UT Austin
                 <br>
                 Advisor: Prof. <a href="https://www.philkr.net">Philipp Kr&auml;henb&uuml;hl</a>
@@ -378,8 +416,8 @@
                   <papertitle>Natural Language to Code using Transformers</papertitle>
                 </a>
                 <br>
-                <!-- <strong>Uday Kusupati</strong>, Venkata Ravi Teja Ailavarapu
-                <br> -->
+                <strong>Uday Kusupati</strong>, Venkata Ravi Teja Ailavarapu
+                <br>
                 Natural Language Processing, Fall 2018, UT Austin
                 <br>
                 Advisor: Prof. <a href="http://www.cs.utexas.edu/~gdurrett/">Greg Durrett</a>
@@ -389,7 +427,7 @@
               </p>
             </td>
           </tr>
-        </table>
+        </table> -->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td>
@@ -402,6 +440,16 @@
             <td width="25%"><img src="images/ta.png" alt="ta" width="160" height="160"></td>
             <td width="75%" valign="center">
               <p>
+                <br>
+                  <papertitle>CS 251 - Theory of Computation - Spring 2021, 2022 - EPFL</papertitle>
+                <br>
+                <br>
+                  <papertitle>CS 457 - Geometric Computing - Fall 2021 - EPFL</papertitle>
+                <br>
+                <br>
+                  <papertitle>CS 354 - Computer Graphics - Spring 2020 - UT Austin</papertitle>
+                <br>
+                <br>
                   <papertitle>CS 388 - Natural Language Processing - Fall 2019 - UT Austin</papertitle>
                 <br>
                 <br>
@@ -426,7 +474,7 @@
               <br>
               <p align="right">
                 <font size="2">
-                  Last Updated: Dec 2018
+                  Last Updated: Jun 2022
                   <br><a href="https://jonbarron.info/">site-lift here</a></font>
               </p>
             </td>
