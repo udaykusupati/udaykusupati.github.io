@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/publications/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publications/ish/ish/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publications/inflatables/inflatables/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publications/rum/rum/</loc>
+    <lastmod>1969-12-31T16:33:43-08:00</lastmod>
+  </url><url>
+    <loc>/publications/umbrella/umbrella/</loc>
+    <lastmod>1969-12-31T16:33:42-08:00</lastmod>
+  </url><url>
+    <loc>/publications/nas/nas/</loc>
+    <lastmod>1969-12-31T16:33:40-08:00</lastmod>
+  </url><url>
+    <loc>/publications/human-pose/human-pose/</loc>
+    <lastmod>1969-12-31T16:33:38-08:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url>
+</urlset>
