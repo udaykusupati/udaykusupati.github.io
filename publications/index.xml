@@ -27,28 +27,28 @@
     <item>
       <title>RUM: Reconfigurable Umbrella Mesh</title>
       <link>/publications/rum/rum/</link>
-      <pubDate>Wed, 31 Dec 1969 16:33:43 -0800</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
+      <pubDate>Thu, 01 Jan 1970 01:33:43 +0100</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
       <guid>/publications/rum/rum/</guid>
       <description>RUM: Reconfigurable Umbrella Mesh Advances in Architectural Geometry 2023 Uday Kusupati EPFL, Switzerland Florin Isvoranu EPFL, Switzerland Seiichi Suzuki EPFL, Switzerland Mark Pauly EPFL, Switzerland A fully reconfigurable umbrella mesh composed of 37 identical cells. Sliding the top andbottom plates towards the X-joints effectively shortens the active scissor linkage arms, leadingto reduced lateral expansion. In this way, significantly different deployed target shapes can beachieved in a single model. Note how the parts of the arms that are not active, i.</description>
     </item>
     <item>
       <title>Umbrella Meshes: Elastic Mechanisms for Freeform Shape Deployment</title>
       <link>/publications/umbrella/umbrella/</link>
-      <pubDate>Wed, 31 Dec 1969 16:33:42 -0800</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
+      <pubDate>Thu, 01 Jan 1970 01:33:42 +0100</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
       <guid>/publications/umbrella/umbrella/</guid>
       <description>Umbrella Meshes: Elastic Mechanisms for Freeform Shape Deployment ACM SIGGRAPH 2022 Uday Kusupati* EPFL, Switzerland Yingying Ren* EPFL, Switzerland Julian Panetta University of California Davis, USA Florin Isvoranu EPFL, Switzerland Davide Pellis EPFL, Switzerland Tian Chen University of Houston, USA Mark Pauly EPFL, Switzerland *joint first author An umbrella mesh is a volumetric deployable structure with a compact, zero-energy rest state that deploys into a given 3D target surface. We show here the physical model of an umbrella mesh unit cell and the deployment sequence of an umbrella mesh prototype optimized to match the input design surface</description>
     </item>
     <item>
       <title>Normal Assisted Stereo Depth Estimation</title>
       <link>/publications/nas/nas/</link>
-      <pubDate>Wed, 31 Dec 1969 16:33:40 -0800</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
+      <pubDate>Thu, 01 Jan 1970 01:33:40 +0100</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
       <guid>/publications/nas/nas/</guid>
       <description>Normal Assisted Stereo Depth Estimation IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020 Uday Kusupati The University of Texas at Austin Shuo Cheng University of California San Diego Rui Chen Tsinghua University Hao Su University of California San Diego Illustration of results of separate learning and joint learning of depth and normal. While the normal prediction is smooth and accurate, existing state-of-the-art stereo depth prediction result is noisy.</description>
     </item>
     <item>
       <title>Learning 3D Human Pose from Structure and Motion</title>
       <link>/publications/human-pose/human-pose/</link>
-      <pubDate>Wed, 31 Dec 1969 16:33:38 -0800</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
+      <pubDate>Thu, 01 Jan 1970 01:33:38 +0100</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
       <guid>/publications/human-pose/human-pose/</guid>
       <description>Learning 3D Human Pose from Structure and Motion European Conference on Computer Vision 2018 Rishabh Dabral Indian Institute of Technology Bombay Anurag Mundadha Indian Institute of Technology Bombay Uday Kusupati Indian Institute of Technology Bombay Safeer Afaque Indian Institute of Technology Bombay Abhishek Sharma Gobasco AI Labs Arjun Jain Indian Institute of Technology Bombay Abstract 3D human pose estimation from a single image is a challenging problem, especially for in-the-wild settings due to the lack of 3D annotated data.</description>
     </item>
