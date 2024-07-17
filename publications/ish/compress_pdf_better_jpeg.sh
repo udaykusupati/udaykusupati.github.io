@@ -1,0 +1,2 @@
+#https://stackoverflow.com/questions/40849325/ghostscript-pdfwrite-specify-jpeg-quality
+gs -dPrinted=false -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dDownsampleColorImages=true -dColorImageResolution=1200 -sOutputFile=${1%.pdf}.compressed.pdf -c "<< /ColorACSImageDict << /VSamples [ 1 1 1 1 ] /HSamples [ 1 1 1 1 ] /QFactor 0.3 /Blend 1 >> /ColorImageDownsampleType /Bicubic /ColorConversionStrategy /LeaveColorUnchanged >> setdistillerparams" -f $1
