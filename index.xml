@@ -8,21 +8,28 @@
     <language>en-us</language>
     <managingEditor>uday.kusupati@epfl.ch (Uday Kusupati)</managingEditor>
     <webMaster>uday.kusupati@epfl.ch (Uday Kusupati)</webMaster>
-    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computational Design of a Kit of Parts for Bending-Active Structures</title>
+      <link>/publications/kop/kop/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
+      <guid>/publications/kop/kop/</guid>
+      <description>Computational Design of a Kit of Parts for Bending-Active Structures ACM SIGGRAPH Asia 2024 Uday Kusupati* EPFL Quentin Becker* EPFL Seiichi Suzuki EPFL Mark Pauly EPFL *joint first author Abstract Bending-active structures are composed of elastic elements that deform to achieve a desired target shape. To support effective design, inverse algorithms have been proposed that optimize the geometry of each element specifically for each design. This makes it difficult to reuse elements across designs or gain efficiency in fabrication through mass production.</description>
+    </item>
     <item>
       <title>Semantic Shape Editing with Parametric Implicit Templates</title>
       <link>/publications/ish/ish/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
       <guid>/publications/ish/ish/</guid>
-      <description>Semantic Shape Editing with Parametric Implicit Templates ACM SIGGRAPH 2024 Uday Kusupati EPFL, Adobe Research, Switzerland Mathieu Gaillard Adobe Research, France Jean-Marc Thiery Adobe Research, France Adrien Kaiser Adobe Research, France Abstract We propose a semantic shape editing method to edit 3D triangle meshes using parametric implicit surface templates, benefiting from the many advantages offered by analytical implicit representations, such as infinite resolution and boolean or blending operations. We propose first a template fitting method to optimize its parameters to best capture the input mesh.</description>
+      <description>Semantic Shape Editing with Parametric Implicit Templates ACM SIGGRAPH North America 2024 Uday Kusupati EPFL, Adobe Research, Switzerland Mathieu Gaillard Adobe Research, France Jean-Marc Thiery Adobe Research, France Adrien Kaiser Adobe Research, France Abstract We propose a semantic shape editing method to edit 3D triangle meshes using parametric implicit surface templates, benefiting from the many advantages offered by analytical implicit representations, such as infinite resolution and boolean or blending operations.</description>
     </item>
     <item>
       <title>Computational Homogenization for Inverse Design of Surface-based Inflatables</title>
       <link>/publications/inflatables/inflatables/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
       <guid>/publications/inflatables/inflatables/</guid>
-      <description>Computational Homogenization for Inverse Design of Surface-based Inflatables ACM SIGGRAPH 2024 Yingying Ren EPFL, Switzerland Julian Panetta University of California Davis, USA Seiichi Suzuki EPFL, Switzerland Uday Kusupati EPFL, Switzerland Florin Isvoranu EPFL, Switzerland Mark Pauly EPFL, Switzerland Overview of our computational pipeline. Using a novel numerical homogenization approach, we process a large set of parameterized unit cell patches to evaluate their in-plane contraction as well as stretching and bending stiffnesses.</description>
+      <description>Computational Homogenization for Inverse Design of Surface-based Inflatables ACM SIGGRAPH North America 2024 Yingying Ren EPFL, Switzerland Julian Panetta University of California Davis, USA Seiichi Suzuki EPFL, Switzerland Uday Kusupati EPFL, Switzerland Florin Isvoranu EPFL, Switzerland Mark Pauly EPFL, Switzerland Overview of our computational pipeline. Using a novel numerical homogenization approach, we process a large set of parameterized unit cell patches to evaluate their in-plane contraction as well as stretching and bending stiffnesses.</description>
     </item>
     <item>
       <title>RUM: Reconfigurable Umbrella Mesh</title>
@@ -36,7 +43,7 @@
       <link>/publications/umbrella/umbrella/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:42 +0100</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
       <guid>/publications/umbrella/umbrella/</guid>
-      <description>Umbrella Meshes: Elastic Mechanisms for Freeform Shape Deployment ACM SIGGRAPH 2022 Uday Kusupati* EPFL, Switzerland Yingying Ren* EPFL, Switzerland Julian Panetta University of California Davis, USA Florin Isvoranu EPFL, Switzerland Davide Pellis EPFL, Switzerland Tian Chen University of Houston, USA Mark Pauly EPFL, Switzerland *joint first author An umbrella mesh is a volumetric deployable structure with a compact, zero-energy rest state that deploys into a given 3D target surface. We show here the physical model of an umbrella mesh unit cell and the deployment sequence of an umbrella mesh prototype optimized to match the input design surface</description>
+      <description>Umbrella Meshes: Elastic Mechanisms for Freeform Shape Deployment ACM SIGGRAPH North America 2022 Uday Kusupati* EPFL, Switzerland Yingying Ren* EPFL, Switzerland Julian Panetta University of California Davis, USA Florin Isvoranu EPFL, Switzerland Davide Pellis EPFL, Switzerland Tian Chen University of Houston, USA Mark Pauly EPFL, Switzerland *joint first author An umbrella mesh is a volumetric deployable structure with a compact, zero-energy rest state that deploys into a given 3D target surface.</description>
     </item>
     <item>
       <title>Normal Assisted Stereo Depth Estimation</title>
