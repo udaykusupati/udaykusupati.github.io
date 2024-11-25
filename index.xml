@@ -59,5 +59,12 @@
       <guid>/publications/human-pose/human-pose/</guid>
       <description>Learning 3D Human Pose from Structure and Motion European Conference on Computer Vision 2018 Rishabh Dabral Indian Institute of Technology Bombay Anurag Mundadha Indian Institute of Technology Bombay Uday Kusupati Indian Institute of Technology Bombay Safeer Afaque Indian Institute of Technology Bombay Abhishek Sharma Gobasco AI Labs Arjun Jain Indian Institute of Technology Bombay Abstract 3D human pose estimation from a single image is a challenging problem, especially for in-the-wild settings due to the lack of 3D annotated data.</description>
     </item>
+    <item>
+      <title></title>
+      <link>/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>uday.kusupati@epfl.ch (Uday Kusupati)</author>
+      <guid>/teaching/</guid>
+      <description>Over the last seven years, I have gained teaching experience at universities in Switzerland, the USA and India in both undergraduate and graduate-level courses.&#xA;École Polytechnique Fédérale de Lausanne, Switzerland Teaching assistant for Geometric Computing&#xA;Fall 2024, 2022, 2021 Teaching assistant for The GCMaker Project&#xA;Spring 2023 Teaching assistant for Advanced Information, Computation and Communication Fall 2023 Teaching assistant for Theory of Computation Spring 2022, 2021 The University of Texas at Austin, USA Teaching assistant for Computer Graphics</description>
+    </item>
   </channel>
 </rss>
